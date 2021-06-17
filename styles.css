@@ -1,0 +1,87 @@
+body{
+    font-size: 12px;
+}
+.perfil{
+    
+    margin: 4em auto 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.photo{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 1em;
+
+}
+.box{
+    border-radius: 1em;
+    display: block;
+    width: 7em;
+    background-color:#E5E5E5 ;
+    margin: 0 1em;
+    height: 4em;
+}
+h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #4E5150;
+}
+.descripcion{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+color: #A9A9A9;
+}
+span{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+/* Gray 4 */
+color: #BDBDBD;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.imagen__conteiner{
+    width: 80%;
+    margin: 4em auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+.image{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    object-fit: cover;
+}
+.items:nth-child(2){
+    grid-column-start: span 2;
+}
+.items:nth-child(3){
+    grid-column-start: span 2;
+}
+.items:nth-child(4){
+    grid-row-start: span 2;
+}
+
+
