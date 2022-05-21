@@ -40,6 +40,6 @@
 
 ## Contact
 
-- Website [your-website.com](https://santy-ramirez/gihub.io/portfolio)
-- GitHub [@your-username](https://github.com/santy-ramirez)
-- Twitter [@your-twitter](https://twitter.com/santy__dev)
+- Website [website.com](https://santidev.com.ar)
+- GitHub [@username](https://github.com/santy-ramirez)
+- Twitter [@twitter](https://twitter.com/santy__dev)
